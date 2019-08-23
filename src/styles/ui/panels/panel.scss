@@ -1,0 +1,21 @@
+.panel {
+  &.max-width > div {
+    max-width: 60em;
+    margin: 0 auto;
+  }
+
+
+  .panel-login {
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+  
+  .panel-wallet {    
+    max-width: 30rem;
+    margin: 0 auto;
+
+    @media screen and (min-width: 1024px) {
+      left: 25%;
+    }
+  }
+}

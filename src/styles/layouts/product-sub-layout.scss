@@ -1,0 +1,42 @@
+.product-sub-layout {
+  min-height: 100vh;
+  display: flex;
+}
+
+.product-primary-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  
+  main {    
+    flex: 1;
+    overflow-y: scroll;
+    padding: 1em;
+    padding-bottom: 7em;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  @media screen and (min-height: 768px) {
+    margin-left: 16em;
+  }
+}
+
+.product-nav {
+  font-size: 0.9em;
+  background-color: $blue;
+  height: $nav-height;
+  display: flex;
+  align-items: center;
+  padding-left: 2em;
+  &:hover {
+    color: #fff;
+  }
+}

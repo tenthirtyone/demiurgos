@@ -1,0 +1,32 @@
+.wallet {
+  text-align: center;
+
+  .notice-content {
+    text-align: left;
+  }
+
+  .wallet-selectors {
+    button:first-child {
+      border-right: solid 1px #888;
+    }
+  }
+
+  .mnemonic {
+    background-color: #efefef;
+    border-radius: .5em;
+    font-size: 1.25em;
+    line-height: 2em;
+    word-spacing: 1em;
+    padding: 1em;
+
+    span {
+      margin: .5em;
+      display: inline-block;
+    }
+  }
+
+  .answer-word {
+    cursor: pointer;
+  }
+
+}

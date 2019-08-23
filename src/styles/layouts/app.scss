@@ -1,0 +1,52 @@
+
+.app {
+  min-height: 100vh;
+  max-height: 100vh;  
+  
+  overflow: scroll;
+  background-color: #f6f6f6;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.app.authorized-layout {
+  background-color: $light-gray;
+}
+
+.app.unauthorized-layout {
+  color: #000000;
+  background-image: url('/static/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 14em;
+}
+
+
+.hidden {  
+  opacity: 0;
+  pointer-events: hidden;  
+}
+
+.removed {
+  display: none;  
+}
+
+.left {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
+
+.right {
+  display: inline-block;
+  text-align: right;
+  width: 50%;
+}
+
+.zero-height {
+  height: 0;
+  overflow-y: hidden;
+  transition: all 0.6s;
+}

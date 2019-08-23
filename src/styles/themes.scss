@@ -1,0 +1,124 @@
+.blue {
+  .product-nav,
+  .page-header {
+    background-color: $blue;
+  }
+
+  a {
+    color: $blue;
+  }
+
+  .button {
+    background-color: $blue;
+    &:hover,
+    &:focus {
+      background-color: darken($blue, 5%);
+    }
+  }
+
+  [type="text"],
+  [type="password"] {
+    &:focus {
+      border-color: $blue;
+    }
+  }
+  .product-sidebar {
+    nav {
+      a.active {
+        color: $light-blue;
+      }
+      a:hover {
+        color: $light-blue;
+      }
+      &.open {
+        a.active {
+          color: $light-blue;
+        }
+      }
+    }
+  }
+}
+
+.kermit {
+  .product-nav,
+  .page-header {
+    background-color: $kermit;
+  }
+
+  a,
+  button {
+    color: $kermit;
+  }
+
+  .button {
+    background-color: $kermit;
+    &:hover,
+    &:focus {
+      background-color: darken($kermit, 5%);
+    }
+  }
+
+  [type="text"],
+  [type="password"] {
+    &:focus {
+      border-color: $kermit;
+    }
+  }
+  .product-sidebar {
+    nav {
+      a.active {
+        color: $light-kermit;
+      }
+      a:hover {
+        color: $light-kermit;
+      }
+      &.open {
+        a.active {
+          color: $light-kermit;
+        }
+      }
+    }
+  }
+}
+
+.goldfish {
+  .product-nav,
+  .page-header {
+    background-color: $goldfish;
+  }
+
+  a,
+  button {
+    color: $goldfish;
+  }
+
+  .button {
+    background-color: $goldfish;
+    &:hover,
+    &:focus {
+      background-color: darken($goldfish, 5%);
+    }
+  }
+
+  [type="text"],
+  [type="password"] {
+    &:focus {
+      border-color: $goldfish;
+    }
+  }
+  .product-sidebar {
+    nav {
+      a.active {
+        color: $light-goldfish;
+      }
+      a:hover {
+        color: $light-goldfish;
+      }
+      &.open {
+        a.active {
+          color: $light-goldfish;
+        }
+      }
+    }
+  }
+}

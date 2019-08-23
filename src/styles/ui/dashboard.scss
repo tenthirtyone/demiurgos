@@ -1,0 +1,38 @@
+.wallet-price-heading {
+  font-size: 2.25em;
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+  padding: .5em 1em 1em 1em;
+
+  p {
+    font-size: .8em;
+    color: #bebebe;
+    font-weight: 400;
+    padding: 0em;
+    margin-top: 0em;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+
+  }
+}
+
+.wallet-address-heading {
+  text-align: center;
+  font-size: .8em;
+  color: #000000;
+
+  p {
+    font-size: .8em;
+    color: #bebebe;
+    font-weight: 400;
+    padding: 0em;
+    margin-top: 0em;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 2em;
+  }
+}

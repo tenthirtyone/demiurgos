@@ -1,0 +1,12 @@
+{
+  "products": [
+    {
+      "id": "credible",
+      "name": "Credible"
+    },
+    {
+      "id": "secret-product",
+      "name": "Secret Product"
+    }
+  ]
+}
