@@ -54,6 +54,10 @@ button {
     }
   }
 
+  &.button-icon {
+    padding: 0.6em 1em;
+  }
+
   &.reset {
     float: left;
   }

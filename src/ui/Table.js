@@ -63,20 +63,37 @@ function createTable(type, data) {
         );
       });
     case "NotaryHistory":
+      const copyHash = () => {
+        const hash = document.querySelector("#hash");
+        hash.select();
+        console.log(hash);
+        console.log(document.execCommand("copy"));
+      };
+
       return data.map(item => {
         return (
           <tr key={Math.random()} className="table-item">
             {Object.entries(item).map(field => {
-              if (field[0] === "fileHash") {
+              if (field[0] === "Hash") {
                 return (
                   <td key={`${item.id}-${field[0]}-${field[1]}`} className={addClasses(field[1])}>
-                    <button className="button button-outline">Copy Hash to Clipboard</button>
+                    <button className="button button-outline button-icon" onClick={copyHash}>
+                      <input id="hash" type="text" className="removed" defaultValue={field[1]} />
+                      <i className="fi-clipboard-notes large" />
+                    </button>
                   </td>
                 );
-              } else if (field[0] === "txHash") {
+              } else if (field[0] === "Tx") {
                 return (
                   <td key={`${item.id}-${field[0]}-${field[1]}`} className={addClasses(field[1])}>
-                    <button className="button button-outline">View on Etherscan</button>
+                    <button
+                      className="button button-outline button-icon"
+                      onClick={() => {
+                        window.open(`https://rinkeby.etherscan.io/tx/${field[1]}`, "_blank");
+                      }}
+                    >
+                      <i className="fi-magnifying-glass large" />
+                    </button>
                   </td>
                 );
               } else {
