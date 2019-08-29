@@ -1,9 +1,6 @@
 import React, { Fragment, useState } from "react";
 import Panel from "../../ui/Panel";
-import { Redirect } from "react-router";
-import { Columns, Column } from "react-flex-columns";
 import Card from "../../ui/Card";
-import Chart from "../../ui/Chart";
 
 const Notice = ({ match, history }) => {
   const [accepted, setAccepted] = useState(false);

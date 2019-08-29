@@ -1,4 +1,6 @@
 import React from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const percentage = "%";
 const negative = "-";
@@ -45,7 +47,7 @@ function createTable(type, data) {
               if (field[0] === "Id") {
                 return (
                   <td key={`${item.id}-${field[0]}-${field[1]}`} className={addClasses(field[1])}>
-                    <img src={`http://localhost:4000/public/imgs/coins/${item.Id}.png`} />
+                    <img alt={`${field[0]}-img`} src={`http://localhost:4000/public/imgs/coins/${item.Id}.png`} />
                   </td>
                 );
               } else {
@@ -63,11 +65,22 @@ function createTable(type, data) {
         );
       });
     case "NotaryHistory":
-      const copyHash = () => {
-        const hash = document.querySelector("#hash");
-        hash.select();
-        console.log(hash);
-        console.log(document.execCommand("copy"));
+      const notify = () => toast("Copied to Clipboard");
+
+      const copyToClipboard = text => {
+        console.log(text);
+        var dummy = document.createElement("textarea");
+        // to avoid breaking orgain page when copying more words
+        // cant copy when adding below this code
+        // dummy.style.display = "none";
+        document.body.appendChild(dummy);
+        //Be careful if you use texarea. setAttribute('value', value), which works with "input" does not work with "textarea". – Eduard
+        dummy.value = text;
+        dummy.select();
+        document.execCommand("copy");
+        document.body.removeChild(dummy);
+
+        notify();
       };
 
       return data.map(item => {
@@ -77,10 +90,25 @@ function createTable(type, data) {
               if (field[0] === "Hash") {
                 return (
                   <td key={`${item.id}-${field[0]}-${field[1]}`} className={addClasses(field[1])}>
-                    <button className="button button-outline button-icon" onClick={copyHash}>
-                      <input id="hash" type="text" className="removed" defaultValue={field[1]} />
+                    <button
+                      className="button button-outline button-icon"
+                      onClick={() => {
+                        copyToClipboard(field[1]);
+                      }}
+                    >
                       <i className="fi-clipboard-notes large" />
                     </button>
+                    <ToastContainer
+                      position="bottom-center"
+                      autoClose={2000}
+                      hideProgressBar={true}
+                      newestOnTop
+                      closeOnClick
+                      rtl={false}
+                      pauseOnVisibilityChange
+                      draggable={false}
+                      pauseOnHover
+                    />
                   </td>
                 );
               } else if (field[0] === "Tx") {
@@ -103,12 +131,6 @@ function createTable(type, data) {
                   </td>
                 );
               }
-
-              return (
-                <td key={`${item.id}-${field[0]}-${field[1]}`} className={addClasses(field[1])}>
-                  {field[1]}
-                </td>
-              );
             })}
           </tr>
         );

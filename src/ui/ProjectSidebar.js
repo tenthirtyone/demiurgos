@@ -22,9 +22,6 @@ const ProjectSidebar = ({ match, showSidebar, toggleSidebar }) => {
         <h1 className="heading-3">Wallets</h1>
       </nav>
       <nav className={showWallets ? "nested open" : "nested closed"}>
-        <NavLink activeClassName="active" to={`${match.url}/balances`} onClick={toggleSidebar}>
-          Balances
-        </NavLink>
         <NavLink activeClassName="active" to={`${match.url}/webwallet`} onClick={toggleSidebar}>
           Browser Wallet
         </NavLink>
@@ -34,9 +31,6 @@ const ProjectSidebar = ({ match, showSidebar, toggleSidebar }) => {
         <NavLink activeClassName="active" to={`${match.url}/paperwallet`} onClick={toggleSidebar}>
           Paper Wallet
         </NavLink>
-        <NavLink activeClassName="active" to={`${match.url}/coldstorage`} onClick={toggleSidebar}>
-          Hardware Wallet
-        </NavLink>
       </nav>
       <nav
         className="open spacing-small"
@@ -44,17 +38,17 @@ const ProjectSidebar = ({ match, showSidebar, toggleSidebar }) => {
           setShowAssets(!showAssets);
         }}
       >
-        <h1 className="heading-3">Assets</h1>
+        <h1 className="heading-3">Business Process</h1>
       </nav>
       <nav className={showAssets ? "nested open" : "nested closed"}>
-        <NavLink activeClassName="active" to={`${match.url}/tokens`} onClick={toggleSidebar}>
-          Tokens
+        <NavLink activeClassName="active" to={`${match.url}/procurement`} onClick={toggleSidebar}>
+          Procurement
         </NavLink>
         <NavLink activeClassName="active" to={`${match.url}/stablecoins`} onClick={toggleSidebar}>
-          Stable Coins
+          Product Data
         </NavLink>
-        <NavLink activeClassName="active" to={`${match.url}/storage`} onClick={toggleSidebar}>
-          NFTs
+        <NavLink activeClassName="active" to={`${match.url}/notary`} onClick={toggleSidebar}>
+          Notary
         </NavLink>
       </nav>
 
@@ -64,23 +58,23 @@ const ProjectSidebar = ({ match, showSidebar, toggleSidebar }) => {
           setShowTools(!showTools);
         }}
       >
-        <h1 className="heading-3">Tools</h1>
+        <h1 className="heading-3">Gaming</h1>
       </nav>
       <nav className={showTools ? "nested open" : "nested closed"}>
         <NavLink activeClassName="active" to={`${match.url}/explorer`} onClick={toggleSidebar}>
-          Block Explorer
+          Fundraising
         </NavLink>
         <NavLink activeClassName="active" to={`${match.url}/makercdp`} onClick={toggleSidebar}>
-          Maker CDP
+          Character Generator
         </NavLink>
         <NavLink activeClassName="active" to={`${match.url}/voting`} onClick={toggleSidebar}>
-          DAO Voting
+          Item generation
         </NavLink>
         <NavLink activeClassName="active" to={`${match.url}/notary`} onClick={toggleSidebar}>
-          Notary
+          Trading Cards
         </NavLink>
-        <NavLink activeClassName="active" to={`${match.url}/monitoring`} onClick={toggleSidebar}>
-          Monitoring
+        <NavLink activeClassName="active" to={`${match.url}/notary`} onClick={toggleSidebar}>
+          On-Chain Game Logic
         </NavLink>
       </nav>
     </aside>

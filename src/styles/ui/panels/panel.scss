@@ -4,18 +4,30 @@
     margin: 0 auto;
   }
 
-
-  .panel-login {
-    max-width: 30rem;
+  &.panel-login {
+    text-align: center;
+    max-width: 30em;
     margin: 0 auto;
+    text-align: center;
+    input {
+      margin: 0 auto;
+      width: 100%;
+    }
   }
-  
-  .panel-wallet {    
+
+  .panel-wallet {
     max-width: 30rem;
     margin: 0 auto;
 
     @media screen and (min-width: 1024px) {
       left: 25%;
+    }
+  }
+
+  .panel-restore {
+    input {
+      width: 100%;
+      text-align: center;
     }
   }
 }

@@ -1,10 +1,10 @@
 // Just enough styling to get the job done. Don't take
 // this too seriously
 
-[type='text'],
-[type='password'] {
+[type="text"],
+[type="number"],
+[type="password"] {
   display: block;
-  width: 25em;
   padding: 0.5em;
   border: 1px solid $gray;
   &:focus {
@@ -14,7 +14,7 @@
 }
 
 select {
-  padding: .25rem;
+  padding: 0.25rem;
   width: 25rem;
   background-color: #fff;
   max-width: 100%;

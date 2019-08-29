@@ -13,14 +13,14 @@
 
   .mnemonic {
     background-color: #efefef;
-    border-radius: .5em;
+    border-radius: 0.5em;
     font-size: 1.25em;
     line-height: 2em;
     word-spacing: 1em;
     padding: 1em;
 
     span {
-      margin: .5em;
+      margin: 0.5em;
       display: inline-block;
     }
   }
@@ -29,4 +29,26 @@
     cursor: pointer;
   }
 
+  .custodial {
+    label {
+      font-weight: 700;
+    }
+    input {
+      width: 100%;
+      text-align: center;
+      font-size: 0.8em;
+    }
+
+    @media screen and (min-width: 768px) {
+      input {
+        font-size: 1em;
+      }
+    }
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
 }

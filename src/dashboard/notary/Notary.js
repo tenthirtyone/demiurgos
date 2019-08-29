@@ -54,8 +54,6 @@ const Notary = () => {
       //Error message
       setFileHash(json.hash);
       setTxHash(json.txHash);
-      console.log("wtf");
-      console.log(json);
       setFileName(json.name);
       setFileSize(json.size / 1e6);
       setFileType(json.type);

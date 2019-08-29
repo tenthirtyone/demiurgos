@@ -1,6 +1,8 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import { Redirect } from "react-router-dom";
 import Panel from "../../ui/Panel";
 import Card from "../../ui/Card";
+import Ethereum from "./Ethereum";
 
 const CreateWallet = ({ location }) => {
   const [mnemonic, setMnemonic] = useState(location.state.mnemonic.split(" "));
@@ -8,6 +10,7 @@ const CreateWallet = ({ location }) => {
   const [answer, setAnswer] = useState([]);
   const [matches, setMatches] = useState(false);
   const [error, setError] = useState(false);
+  const [verified, setVerified] = useState(false);
 
   useEffect(
     () => {
@@ -100,7 +103,9 @@ const CreateWallet = ({ location }) => {
     );
   }
 
-  return (
+  return verified ? (
+    <Ethereum walletMnemonic={mnemonic.join(" ")} />
+  ) : (
     <Panel className="panel-wallet">
       <Card className="">
         {answer}
@@ -133,7 +138,14 @@ const CreateWallet = ({ location }) => {
               );
             })}
           </div>
-          <button className={matches ? "button button-outline" : "button button-outline hidden removed"}>Continue</button>
+          <button
+            className={matches ? "button button-outline" : "button button-outline hidden removed"}
+            onClick={() => {
+              setVerified(true);
+            }}
+          >
+            Continue
+          </button>
         </Card>
       </Card>
     </Panel>

@@ -3,24 +3,24 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import Panel from "../../ui/Panel";
 import PageHeader from "../../ui/PageHeader";
 import { PageHeaderTabs } from "../../ui/PageHeaderTabs";
-import Ethereum from "./Ethereum";
+import CreatePaperWallet from "./Create";
 
-const CustodialLayout = ({ match, location }) => {
-  const [title, setTitle] = useState("Custodial Wallet");
+const PaperWalletLayout = ({ match, location }) => {
+  const [title, setTitle] = useState("Paper Wallet");
 
   return (
     <Fragment>
-      {match.url === location.pathname && <Redirect to={`${match.url}/home`} />}
+      {match.url === location.pathname && <Redirect to={`${match.url}/create`} />}
       <PageHeader title={title} useMaxWidth={false}>
         <PageHeaderTabs />
       </PageHeader>
       <Panel className="wallet">
         <Switch location={location}>
-          <Route path={`${match.path}/home`} component={Ethereum} />
+          <Route path={`${match.path}/create`} component={CreatePaperWallet} />
         </Switch>
       </Panel>
     </Fragment>
   );
 };
 
-export default CustodialLayout;
+export default PaperWalletLayout;

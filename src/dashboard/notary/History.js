@@ -22,8 +22,8 @@ const Balances = () => {
   return (
     <Panel>
       <Card>
-        <div className="wallet-price-heading">
-          <p>Total Assets</p>
+        <div className="price-heading">
+          <p>Total Files</p>
           <span>{count}</span>
         </div>
       </Card>

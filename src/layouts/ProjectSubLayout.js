@@ -8,13 +8,15 @@ import Hamburger from "../ui/Hamburger";
 import AuthenticationLayout from "../dashboard/authentication/AuthenticationLayout";
 import BalancesLayout from "../dashboard/balances/BalancesLayout";
 import WebWalletLayout from "../dashboard/webwallet/WebWalletLayout";
+import PaperWalletLayout from "../dashboard/paperwallet/PaperWalletLayout";
 import CustodialWalletsLayout from "../dashboard/custodial/CustodialWalletLayout";
 import SendAndReceiveLayout from "../dashboard/sendandreceive/SendAndReceiveLayout";
 import BuyAndSellLayout from "../dashboard/buyandsell/BuyAndSellLayout";
 import ColdStorageLayout from "../dashboard/coldstorage/ColdStorageLayout";
 import NotaryLayout from "../dashboard/notary/NotaryLayout";
+import ProcurementLayout from "../dashboard/procurement/ProcurementLayout";
 
-const ProjectSubLayout = ({ match, location }) => {
+const ProjectSubLayout = ({ match }) => {
   const [showSidebar, setShowSidebar] = useState(false);
   const { projectId } = match.params;
 
@@ -33,8 +35,10 @@ const ProjectSubLayout = ({ match, location }) => {
             <Route path={`${match.path}/balances`} component={BalancesLayout} />
             <Route path={`${match.path}/webwallet`} component={WebWalletLayout} />
             <Route path={`${match.path}/custodialwallet`} component={CustodialWalletsLayout} />
+            <Route path={`${match.path}/paperwallet`} component={PaperWalletLayout} />
             <Route path={`${match.path}/sendandreceive`} component={SendAndReceiveLayout} />
             <Route path={`${match.path}/buyandsell`} component={BuyAndSellLayout} />
+            <Route path={`${match.path}/procurement`} component={ProcurementLayout} />
             <Route path={`${match.path}/coldstorage`} component={ColdStorageLayout} />
             <Route path={`${match.path}/notary`} component={NotaryLayout} />
             <Route path={`${match.path}/database`} exact component={AuthenticationLayout} />
