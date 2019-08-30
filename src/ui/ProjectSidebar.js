@@ -41,11 +41,11 @@ const ProjectSidebar = ({ match, showSidebar, toggleSidebar }) => {
         <h1 className="heading-3">Business Process</h1>
       </nav>
       <nav className={showAssets ? "nested open" : "nested closed"}>
+        <NavLink activeClassName="active" to={`${match.url}/productdata`} onClick={toggleSidebar}>
+          Asset Data
+        </NavLink>
         <NavLink activeClassName="active" to={`${match.url}/procurement`} onClick={toggleSidebar}>
           Procurement
-        </NavLink>
-        <NavLink activeClassName="active" to={`${match.url}/stablecoins`} onClick={toggleSidebar}>
-          Product Data
         </NavLink>
         <NavLink activeClassName="active" to={`${match.url}/notary`} onClick={toggleSidebar}>
           Notary
@@ -70,10 +70,10 @@ const ProjectSidebar = ({ match, showSidebar, toggleSidebar }) => {
         <NavLink activeClassName="active" to={`${match.url}/voting`} onClick={toggleSidebar}>
           Item generation
         </NavLink>
-        <NavLink activeClassName="active" to={`${match.url}/notary`} onClick={toggleSidebar}>
+        <NavLink activeClassName="active" to={`${match.url}/tradingcards`} onClick={toggleSidebar}>
           Trading Cards
         </NavLink>
-        <NavLink activeClassName="active" to={`${match.url}/notary`} onClick={toggleSidebar}>
+        <NavLink activeClassName="active" to={`${match.url}/onchaingame`} onClick={toggleSidebar}>
           On-Chain Game Logic
         </NavLink>
       </nav>

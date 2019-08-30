@@ -77,44 +77,50 @@ const Notary = () => {
 
   return (
     <Panel>
-      <Card className={`file-info`}>
-        <Card className={`error ${error ? "" : "removed"}`}>
-          <h3 className="heading-3 center-content">Duplicate File</h3>
-          <p>This file content has already been notarized.</p>
-          <p>
-            <button
-              className="button button-outline"
-              onClick={() => {
-                window.open(`https://rinkeby.etherscan.io/tx/${txHash}`, "_blank");
-              }}
-            >
-              View on Etherscan.io
-            </button>
-          </p>
-        </Card>
-        <div>
-          <p>
-            <b>Filename</b>
-          </p>
-          <p>{fileName}</p>
-          <p>
-            <b>Type</b>
-          </p>
-          <p>{fileType}</p>
-          <p>
-            <b>Size (MiB)</b>
-          </p>
-          <p>{fileSize}</p>
+      <Card className="file-info">
+        <Card className="card-inner">
+          <h1 className="heading-2">Overview</h1>
+          <p>Notary creates a digital fingerprint of a file and records the fingerprint on the Ethereum blockchain.</p>
 
-          <input type="file" className="removed file-upload" onChange={fileSelected} />
-          <button
-            className={`button button-outline full-width ${fileHash || uploading ? "removed" : ""}`}
-            onClick={clickHandler}
-          >
-            Select a File
-          </button>
-        </div>
+          <Card className={`error ${error ? "" : "removed"}`}>
+            <h3 className="heading-3 center-content">Duplicate File</h3>
+            <p>This file content has already been notarized.</p>
+            <p>
+              <button
+                className="button button-outline"
+                onClick={() => {
+                  window.open(`https://rinkeby.etherscan.io/tx/${txHash}`, "_blank");
+                }}
+              >
+                View on Etherscan.io
+              </button>
+            </p>
+          </Card>
+          <div>
+            <p>
+              <b>Filename</b>
+            </p>
+            <p>{fileName}</p>
+            <p>
+              <b>Type</b>
+            </p>
+            <p>{fileType}</p>
+            <p>
+              <b>Size (MiB)</b>
+            </p>
+            <p>{fileSize}</p>
+
+            <input type="file" className="removed file-upload" onChange={fileSelected} />
+            <button
+              className={`button button-outline full-width ${fileHash || uploading ? "removed" : ""}`}
+              onClick={clickHandler}
+            >
+              Select a File
+            </button>
+          </div>
+        </Card>
       </Card>
+
       <Card className={`${uploading ? "" : "removed"}`}>
         <h3 className="heading-3 center-content">
           Please wait while your transaction is mined. This can take up to 15-20 seconds.

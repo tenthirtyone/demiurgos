@@ -31,7 +31,6 @@ const Ethereum = ({ walletMnemonic }) => {
       }
 
       async function setupWallet() {
-        console.log(mnemonic);
         const privateKey = ethers.Wallet.fromMnemonic(mnemonic).privateKey;
 
         const provider = ethers.getDefaultProvider("rinkeby");

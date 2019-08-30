@@ -20,7 +20,6 @@ const CreatePaperWallet = ({ match, location }) => {
 
       const provider = ethers.getDefaultProvider("rinkeby");
       const wallet = new ethers.Wallet(privateKey, provider);
-      console.log(wallet.address);
       setAddress(wallet.address);
     }
 
@@ -33,7 +32,10 @@ const CreatePaperWallet = ({ match, location }) => {
     return (
       <Fragment>
         <Panel className="panel-wallet">
-          <Card>{address ? <QRCode value={address} renderAs="svg" size={250} /> : null}</Card>
+          <Card>
+            {address ? <QRCode value={address} renderAs="svg" size={250} /> : null}
+            {address}
+          </Card>
           <Card className="">
             <Card className="card-inner">
               <p>The following seed passphrase unlocks your cryptocurrency wallet</p>

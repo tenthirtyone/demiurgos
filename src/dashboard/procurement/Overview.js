@@ -18,8 +18,8 @@ const Notice = ({ match, history }) => {
           <Card className="card-inner">
             <h1 className="heading-2">Overview</h1>
             <p>
-              This example blockchain procurement application demonstrates the ability to coordinate the purchasing and
-              receiving process across a large organization.
+              This example blockchain procurement application demonstrates the business process improvement of coordinating the
+              purchasing and receiving process across a large organization.
             </p>
             <div>
               <h3 className="heading-3">Step 1</h3>
@@ -29,14 +29,15 @@ const Notice = ({ match, history }) => {
               <h3 className="heading-3">Step 3</h3>
               Journals mock invoices from the maintenance company.
               <h3 className="heading-3">Step 4</h3>
-              Logs the user acceptance of the maintenance.
+              Accepts the maintenance by the user.
               <h3 className="heading-3">Step 5</h3>
               Approves the invoice and issues payment.
             </div>
-
-            <button className="button button-outline" onClick={goForward}>
-              Continue
-            </button>
+            <div className="text-right max-width">
+              <button className="button button-outline" onClick={goForward}>
+                Continue
+              </button>
+            </div>
           </Card>
         </Card>
       </Panel>

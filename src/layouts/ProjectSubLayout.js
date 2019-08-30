@@ -15,10 +15,10 @@ import BuyAndSellLayout from "../dashboard/buyandsell/BuyAndSellLayout";
 import ColdStorageLayout from "../dashboard/coldstorage/ColdStorageLayout";
 import NotaryLayout from "../dashboard/notary/NotaryLayout";
 import ProcurementLayout from "../dashboard/procurement/ProcurementLayout";
+import ProductDataLayout from "../dashboard/productdata/ProductDataLayout";
 
 const ProjectSubLayout = ({ match }) => {
   const [showSidebar, setShowSidebar] = useState(false);
-  const { projectId } = match.params;
 
   function toggleSidebar() {
     setShowSidebar(!showSidebar);
@@ -40,6 +40,7 @@ const ProjectSubLayout = ({ match }) => {
             <Route path={`${match.path}/buyandsell`} component={BuyAndSellLayout} />
             <Route path={`${match.path}/procurement`} component={ProcurementLayout} />
             <Route path={`${match.path}/coldstorage`} component={ColdStorageLayout} />
+            <Route path={`${match.path}/productdata`} component={ProductDataLayout} />
             <Route path={`${match.path}/notary`} component={NotaryLayout} />
             <Route path={`${match.path}/database`} exact component={AuthenticationLayout} />
             <Route path={`${match.path}/database/:databaseType`} component={AuthenticationLayout} />
