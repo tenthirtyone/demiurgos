@@ -14,7 +14,7 @@ const PaperWalletLayout = ({ match, location }) => {
       <PageHeader title={title} useMaxWidth={false}>
         <PageHeaderTabs />
       </PageHeader>
-      <Panel className="wallet">
+      <Panel className="wallet paper-wallet">
         <Switch location={location}>
           <Route path={`${match.path}/create`} component={CreatePaperWallet} />
         </Switch>

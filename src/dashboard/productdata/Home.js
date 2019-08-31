@@ -14,6 +14,7 @@ const Home = ({ match, history }) => {
   const [cart_url, setCart] = useState("");
   const [updating, setUpdating] = useState("");
   const [txHash, setTxHash] = useState(null);
+  const [price, setPrice] = useState(null);
 
   const [assetURI, setAssetURI] = useState(null);
   const [assetHash, setAssetHash] = useState(null);
@@ -32,8 +33,11 @@ const Home = ({ match, history }) => {
       product_type,
       images: [{ src: image }],
       referral_url,
-      cart_url
+      cart_url,
+      variants: [{ price: parseInt(price) }]
     };
+
+    console.log("product");
     console.log(product);
     try {
       res = await fetch("http://localhost:4000/api/product", {
@@ -54,7 +58,6 @@ const Home = ({ match, history }) => {
     setAssetURI(asset[0]);
     setAssetHash(asset[1]);
     setAssetOwner(asset[2]);
-    console.log(asset);
   }
 
   useEffect(() => {
@@ -69,7 +72,7 @@ const Home = ({ match, history }) => {
       }
 
       const { product } = await res.json();
-
+      console.log(product);
       setTitle(product.title);
       setBodyHTML(product.body_html);
       setVendor(product.vendor);
@@ -77,6 +80,8 @@ const Home = ({ match, history }) => {
       setImage(product.images[0].src);
       setReferral(product.referral_url);
       setCart(product.cart_url);
+
+      setPrice(product.variants[0].price);
     }
 
     getProduct(0);
@@ -97,7 +102,10 @@ const Home = ({ match, history }) => {
               This example blockchain product demonstrates the convergence of business process across multiple organizations and
               applications.
             </p>
-            <p>The demo will take the product data defined here are share it across multiple platforms:</p>
+            <p>
+              The demo will take the product data defined here and share it across multiple platforms. Each platform may
+              independetly lookup and verify the data using their own connection to the Ethereum blockchain.
+            </p>
             <ul>
               <li>
                 Two Shopify stores
@@ -111,8 +119,8 @@ const Home = ({ match, history }) => {
               <li>A Product Report</li>
             </ul>
             <p>
-              The API includes referral and cart links enabling Front End Web Developers to build entire stores stocked by
-              Credible products without requiring any backend database or webserver.
+              The API includes referral and cart links enabling Front End Web Developers to build entire applications stocked by
+              Credible products without requiring any backend database, distributors, or payment processor.
             </p>
             <Card className={`${txHash ? "removed" : ""}`}>
               <div>
@@ -131,35 +139,44 @@ const Home = ({ match, history }) => {
                   defaultValue={body_html}
                   onChange={evt => setBodyHTML(evt.target.value)}
                 />
-                <label>Product Name</label>
+                <label>Price</label>
+                <input
+                  type="number"
+                  defaultValue={price}
+                  onChange={evt => {
+                    setPrice(evt.target.value);
+                    console.log(evt.target.value);
+                  }}
+                />
+                <label>Vendor</label>
                 <input
                   type="text"
                   placeholder="Product Vendor"
                   defaultValue={vendor}
                   onChange={evt => setVendor(evt.target.value)}
                 />
-                <label>Product Name</label>
+                <label>Type</label>
                 <input
                   type="text"
                   placeholder="Product Type"
                   defaultValue={product_type}
                   onChange={evt => setType(evt.target.value)}
                 />
-                <label>Product Name</label>
+                <label>Image URL</label>
                 <input
                   type="text"
                   placeholder="Product Image"
                   defaultValue={image}
                   onChange={evt => setImage(evt.target.value)}
                 />
-                <label>Product Name</label>
+                <label>Referral URL</label>
                 <input
                   type="text"
                   placeholder="Referral URL"
                   defaultValue={referral_url}
                   onChange={evt => setReferral(evt.target.value)}
                 />
-                <label>Product Name</label>
+                <label>Cart URL</label>
                 <input type="text" placeholder="Cart URL" defaultValue={cart_url} onChange={evt => setCart(evt.target.value)} />
                 <button className={`button button-outline max-width ${updating ? "removed" : ""}`} onClick={updateProduct}>
                   Update Product

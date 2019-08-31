@@ -1,6 +1,6 @@
-import React from 'react'
-import { Switch, Route } from 'react-router-dom'
-import Login from '../auth/Login'
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import Login from "../auth/Login";
 
 const UnauthorizedLayout = ({ match }) => (
   <div className="app unauthorized-layout">
@@ -8,6 +8,6 @@ const UnauthorizedLayout = ({ match }) => (
       <Route path="/auth" component={Login} />
     </Switch>
   </div>
-)
+);
 
-export default UnauthorizedLayout
+export default UnauthorizedLayout;

@@ -10,6 +10,7 @@ const CreatePaperWallet = ({ match, location }) => {
   const [mnemonic, setMnemonic] = useState(null);
   const [backedUp, setBackedUp] = useState(false);
   const [address, setAddress] = useState(null);
+  const [privateKey, setPrivateKey] = useState(null);
 
   useEffect(() => {
     const phrase = bip39.generateMnemonic();
@@ -21,6 +22,7 @@ const CreatePaperWallet = ({ match, location }) => {
       const provider = ethers.getDefaultProvider("rinkeby");
       const wallet = new ethers.Wallet(privateKey, provider);
       setAddress(wallet.address);
+      setPrivateKey(privateKey);
     }
 
     createMnemonic();
@@ -31,10 +33,16 @@ const CreatePaperWallet = ({ match, location }) => {
   } else {
     return (
       <Fragment>
-        <Panel className="panel-wallet">
+        <Panel className="">
           <Card>
+            <h1 className="heading-1">Address</h1>
             {address ? <QRCode value={address} renderAs="svg" size={250} /> : null}
-            {address}
+            <div>{address}</div>
+          </Card>
+          <Card>
+            <h1 className="heading-1">Private Key</h1>
+            {privateKey ? <QRCode value={privateKey} renderAs="svg" size={250} /> : null}
+            <div>{privateKey}</div>
           </Card>
           <Card className="">
             <Card className="card-inner">

@@ -10,8 +10,7 @@ const AuthorizedLayout = ({ match }) => {
     <div className="app blue authorized-layout">
       <AuthorizedPrimaryHeader />
       <Switch>
-        <Route path="/products/add" exact component={AccountSubLayout} />
-        <Route path="/products" exact component={AccountSubLayout} />
+        <Route path="/" exact component={AccountSubLayout} />
         <Route
           path="/dashboard"
           component={() => <ProjectSubLayout showSidebar={showSidebar} setShowSidebar={setShowSidebar} match={match} />}

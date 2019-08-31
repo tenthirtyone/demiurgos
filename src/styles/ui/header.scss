@@ -1,0 +1,60 @@
+.landing-header {
+  clear: both;
+  background-color: #fff;
+  height: 3.25em;
+  color: #000000;
+  width: 100%;
+  .header {
+    max-width: 70em;
+    margin: 0 auto;
+  }
+  .logo {
+    font-size: 18pt;
+    color: #000000;
+    float: left;
+    margin-top: 0.5em;
+
+    img {
+      height: 1.1em;
+      display: inline-block;
+      margin-right: 0.5em;
+    }
+    > * {
+      vertical-align: middle;
+    }
+
+    &.logo-light {
+      color: #fff;
+    }
+
+    .brand {
+      font-family: "Rubik";
+      font-weight: 700;
+      color: #000000;
+    }
+  }
+
+  .modal {
+    text-align: center;
+    border: solid 1px #000;
+    background-color: #ffffff;
+    .card {
+      box-shadow: none;
+    }
+    input {
+      padding: 0.5em;
+      font-size: 1em;
+      width: 100%;
+    }
+    small {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  .demo {
+    float: right;
+    color: #0060ef;
+    padding: 0.5em;
+  }
+}
