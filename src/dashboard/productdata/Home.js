@@ -72,7 +72,7 @@ const Home = ({ match, history }) => {
       }
 
       const { product } = await res.json();
-      console.log(product);
+
       setTitle(product.title);
       setBodyHTML(product.body_html);
       setVendor(product.vendor);

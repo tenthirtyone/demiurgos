@@ -23,7 +23,6 @@ const LandingPage = () => {
 
   return (
     <Fragment>
-      <Header />
       <Panel className="panel-landing">
         <Columns gutterSize={0.8} stack={isMobile}>
           <Column flex>
