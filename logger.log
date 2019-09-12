@@ -18517,3 +18517,150 @@
 {"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/preloader-bg.png","time":"2019-09-12T19:03:12.590Z","v":0}
 {"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/favicon.png","time":"2019-09-12T19:03:13.803Z","v":0}
 {"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/preloader-bg-bw.png","time":"2019-09-12T19:03:14.797Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/mp3/purpleplanetmusic-desolation.mp3","time":"2019-09-12T19:03:46.133Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/mp3/purpleplanetmusic-desolation.mp3","time":"2019-09-12T19:03:46.149Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /","time":"2019-09-12T19:04:40.392Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/bootstrap/dist/css/bootstrap.min.css","time":"2019-09-12T19:04:40.415Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/fontawesome-free/js/all.js","time":"2019-09-12T19:04:40.416Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/fontawesome-free/js/v4-shims.js","time":"2019-09-12T19:04:40.422Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/ionicons/css/ionicons.min.css","time":"2019-09-12T19:04:40.435Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/css/settings.css","time":"2019-09-12T19:04:40.436Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/css/layers.css","time":"2019-09-12T19:04:40.438Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/css/navigation.css","time":"2019-09-12T19:04:40.439Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/flickity/dist/flickity.min.css","time":"2019-09-12T19:04:40.440Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/photoswipe/dist/photoswipe.css","time":"2019-09-12T19:04:40.440Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/photoswipe/dist/default-skin/default-skin.css","time":"2019-09-12T19:04:40.446Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jquery-datetimepicker/build/jquery.datetimepicker.min.css","time":"2019-09-12T19:04:40.468Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/summernote/dist/summernote-bs4.css","time":"2019-09-12T19:04:40.475Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/css/godlike.min.css","time":"2019-09-12T19:04:40.476Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/css/custom.css","time":"2019-09-12T19:04:40.476Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jquery/dist/jquery.min.js","time":"2019-09-12T19:04:40.477Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/object-fit-images/dist/ofi.min.js","time":"2019-09-12T19:04:40.487Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/gsap/src/minified/TweenMax.min.js","time":"2019-09-12T19:04:40.528Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/gsap/src/minified/plugins/ScrollToPlugin.min.js","time":"2019-09-12T19:04:40.528Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/popper.js/dist/umd/popper.min.js","time":"2019-09-12T19:04:40.533Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/bootstrap/dist/js/bootstrap.min.js","time":"2019-09-12T19:04:40.533Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/sticky-kit/dist/sticky-kit.min.js","time":"2019-09-12T19:04:40.563Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jarallax/dist/jarallax.min.js","time":"2019-09-12T19:04:40.563Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jarallax/dist/jarallax-video.min.js","time":"2019-09-12T19:04:40.571Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js","time":"2019-09-12T19:04:40.574Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/flickity/dist/flickity.pkgd.min.js","time":"2019-09-12T19:04:40.584Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/isotope-layout/dist/isotope.pkgd.min.js","time":"2019-09-12T19:04:40.585Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/photoswipe/dist/photoswipe.min.js","time":"2019-09-12T19:04:40.585Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/photoswipe/dist/photoswipe-ui-default.min.js","time":"2019-09-12T19:04:40.592Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/typed.js/lib/typed.min.js","time":"2019-09-12T19:04:40.602Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jquery-validation/dist/jquery.validate.min.js","time":"2019-09-12T19:04:40.603Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jquery-countdown/dist/jquery.countdown.min.js","time":"2019-09-12T19:04:40.604Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/moment/min/moment.min.js","time":"2019-09-12T19:04:40.604Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/hammerjs/hammer.min.js","time":"2019-09-12T19:04:40.605Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js","time":"2019-09-12T19:04:40.610Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/nanoscroller/bin/javascripts/jquery.nanoscroller.js","time":"2019-09-12T19:04:40.612Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/soundmanager2/script/soundmanager2-nodebug-jsmin.js","time":"2019-09-12T19:04:40.612Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jquery-datetimepicker/build/jquery.datetimepicker.full.min.js","time":"2019-09-12T19:04:40.613Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/js/jquery.themepunch.tools.min.js","time":"2019-09-12T19:04:40.614Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/js/jquery.themepunch.revolution.min.js","time":"2019-09-12T19:04:40.614Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/js/extensions/revolution.extension.video.min.js","time":"2019-09-12T19:04:40.622Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/js/extensions/revolution.extension.carousel.min.js","time":"2019-09-12T19:04:40.623Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/js/extensions/revolution.extension.navigation.min.js","time":"2019-09-12T19:04:40.623Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/keymaster/keymaster.js","time":"2019-09-12T19:04:40.623Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/summernote/dist/summernote-bs4.min.js","time":"2019-09-12T19:04:40.624Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/js/godlike.min.js","time":"2019-09-12T19:04:40.625Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/js/godlike-init.js","time":"2019-09-12T19:04:40.628Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/js/demo.js","time":"2019-09-12T19:04:40.631Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/logo.svg","time":"2019-09-12T19:04:40.632Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/bg-nav-side.jpg","time":"2019-09-12T19:04:40.634Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/image-1.jpg","time":"2019-09-12T19:04:40.645Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/footer-corner.png","time":"2019-09-12T19:04:40.645Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/footer-logo-godlike.png","time":"2019-09-12T19:04:40.646Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/page-background.jpg","time":"2019-09-12T19:04:40.648Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/border-top.png","time":"2019-09-12T19:04:40.649Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/border-right.png","time":"2019-09-12T19:04:40.649Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/border-bottom.png","time":"2019-09-12T19:04:40.655Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/border-left.png","time":"2019-09-12T19:04:40.656Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/ionicons/fonts/ionicons.ttf?v=2.0.1","time":"2019-09-12T19:04:40.709Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/cursor-nav-close.svg","time":"2019-09-12T19:04:41.215Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/preloader-bg.png","time":"2019-09-12T19:04:41.256Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/mp3/purpleplanetmusic-desolation.mp3","time":"2019-09-12T19:04:41.349Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/preloader-bg-bw.png","time":"2019-09-12T19:04:43.065Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /","time":"2019-09-12T19:05:10.982Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/bootstrap/dist/css/bootstrap.min.css","time":"2019-09-12T19:05:11.011Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/fontawesome-free/js/all.js","time":"2019-09-12T19:05:11.020Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/fontawesome-free/js/v4-shims.js","time":"2019-09-12T19:05:11.022Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/ionicons/css/ionicons.min.css","time":"2019-09-12T19:05:11.036Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/css/settings.css","time":"2019-09-12T19:05:11.038Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/css/layers.css","time":"2019-09-12T19:05:11.039Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/css/navigation.css","time":"2019-09-12T19:05:11.040Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/photoswipe/dist/photoswipe.css","time":"2019-09-12T19:05:11.041Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/flickity/dist/flickity.min.css","time":"2019-09-12T19:05:11.042Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/photoswipe/dist/default-skin/default-skin.css","time":"2019-09-12T19:05:11.055Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jquery-datetimepicker/build/jquery.datetimepicker.min.css","time":"2019-09-12T19:05:11.056Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/summernote/dist/summernote-bs4.css","time":"2019-09-12T19:05:11.064Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/css/godlike.min.css","time":"2019-09-12T19:05:11.067Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/css/custom.css","time":"2019-09-12T19:05:11.067Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jquery/dist/jquery.min.js","time":"2019-09-12T19:05:11.068Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/object-fit-images/dist/ofi.min.js","time":"2019-09-12T19:05:11.075Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/gsap/src/minified/TweenMax.min.js","time":"2019-09-12T19:05:11.076Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/gsap/src/minified/plugins/ScrollToPlugin.min.js","time":"2019-09-12T19:05:11.093Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/popper.js/dist/umd/popper.min.js","time":"2019-09-12T19:05:11.096Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/bootstrap/dist/js/bootstrap.min.js","time":"2019-09-12T19:05:11.105Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/sticky-kit/dist/sticky-kit.min.js","time":"2019-09-12T19:05:11.106Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jarallax/dist/jarallax.min.js","time":"2019-09-12T19:05:11.130Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jarallax/dist/jarallax-video.min.js","time":"2019-09-12T19:05:11.132Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js","time":"2019-09-12T19:05:11.132Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/flickity/dist/flickity.pkgd.min.js","time":"2019-09-12T19:05:11.133Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/isotope-layout/dist/isotope.pkgd.min.js","time":"2019-09-12T19:05:11.133Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/photoswipe/dist/photoswipe.min.js","time":"2019-09-12T19:05:11.134Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/photoswipe/dist/photoswipe-ui-default.min.js","time":"2019-09-12T19:05:11.156Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/typed.js/lib/typed.min.js","time":"2019-09-12T19:05:11.157Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jquery-countdown/dist/jquery.countdown.min.js","time":"2019-09-12T19:05:11.157Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/moment/min/moment.min.js","time":"2019-09-12T19:05:11.162Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jquery-validation/dist/jquery.validate.min.js","time":"2019-09-12T19:05:11.164Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js","time":"2019-09-12T19:05:11.165Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/hammerjs/hammer.min.js","time":"2019-09-12T19:05:11.172Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/ionicons/fonts/ionicons.ttf?v=2.0.1","time":"2019-09-12T19:05:11.173Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/nanoscroller/bin/javascripts/jquery.nanoscroller.js","time":"2019-09-12T19:05:11.173Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/soundmanager2/script/soundmanager2-nodebug-jsmin.js","time":"2019-09-12T19:05:11.174Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/jquery-datetimepicker/build/jquery.datetimepicker.full.min.js","time":"2019-09-12T19:05:11.174Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/js/jquery.themepunch.tools.min.js","time":"2019-09-12T19:05:11.175Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/js/jquery.themepunch.revolution.min.js","time":"2019-09-12T19:05:11.183Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/js/extensions/revolution.extension.video.min.js","time":"2019-09-12T19:05:11.188Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/js/extensions/revolution.extension.carousel.min.js","time":"2019-09-12T19:05:11.191Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/revolution/js/extensions/revolution.extension.navigation.min.js","time":"2019-09-12T19:05:11.194Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/keymaster/keymaster.js","time":"2019-09-12T19:05:11.197Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/vendor/summernote/dist/summernote-bs4.min.js","time":"2019-09-12T19:05:11.201Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/page-background.jpg","time":"2019-09-12T19:05:11.201Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/image-1.jpg","time":"2019-09-12T19:05:11.202Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/border-bottom.png","time":"2019-09-12T19:05:11.216Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/border-top.png","time":"2019-09-12T19:05:11.217Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/border-right.png","time":"2019-09-12T19:05:11.217Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/border-left.png","time":"2019-09-12T19:05:11.218Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/bg-nav-side.jpg","time":"2019-09-12T19:05:11.218Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/logo.svg","time":"2019-09-12T19:05:11.218Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/js/godlike.min.js","time":"2019-09-12T19:05:11.229Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/js/godlike-init.js","time":"2019-09-12T19:05:11.230Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/js/demo.js","time":"2019-09-12T19:05:11.231Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/footer-corner.png","time":"2019-09-12T19:05:11.232Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/footer-logo-godlike.png","time":"2019-09-12T19:05:11.232Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/cursor-nav-close.svg","time":"2019-09-12T19:05:11.555Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/preloader-bg.png","time":"2019-09-12T19:05:11.599Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/favicon.png","time":"2019-09-12T19:05:12.573Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/images/preloader-bg-bw.png","time":"2019-09-12T19:05:13.552Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/mp3/purpleplanetmusic-desolation.mp3","time":"2019-09-12T19:08:12.188Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/mp3/purpleplanetmusic-desolation.mp3","time":"2019-09-12T19:09:06.304Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/mp3/purpleplanetmusic-desolation.mp3","time":"2019-09-12T19:26:39.285Z","v":0}
+{"name":"middleware","hostname":"rothbard","pid":22836,"level":30,"msg":"::1 /assets/mp3/purpleplanetmusic-desolation.mp3","time":"2019-09-12T23:13:09.935Z","v":0}
+{"name":"server","hostname":"rothbard","pid":19229,"level":30,"msg":"Server listening @5000","time":"2019-09-12T23:19:13.708Z","v":0}
+{"name":"database","hostname":"rothbard","pid":19229,"level":30,"msg":"started with engine: mongo","time":"2019-09-12T23:19:13.700Z","v":0}
+{"name":"mongo engine","hostname":"rothbard","pid":19229,"level":30,"msg":"Mongo Engine Started","time":"2019-09-12T23:19:13.703Z","v":0}
+{"name":"server","hostname":"rothbard","pid":19434,"level":30,"msg":"Server listening @5000","time":"2019-09-12T23:19:38.861Z","v":0}
+{"name":"database","hostname":"rothbard","pid":19434,"level":30,"msg":"started with engine: mongo","time":"2019-09-12T23:19:38.855Z","v":0}
+{"name":"mongo engine","hostname":"rothbard","pid":19434,"level":30,"msg":"Mongo Engine Started","time":"2019-09-12T23:19:38.857Z","v":0}
+{"name":"server","hostname":"rothbard","pid":19772,"level":30,"msg":"Server listening @5000","time":"2019-09-12T23:21:05.638Z","v":0}
+{"name":"database","hostname":"rothbard","pid":19772,"level":30,"msg":"started with engine: mongo","time":"2019-09-12T23:21:05.631Z","v":0}
+{"name":"mongo engine","hostname":"rothbard","pid":19772,"level":30,"msg":"Mongo Engine Started","time":"2019-09-12T23:21:05.633Z","v":0}
+{"name":"server","hostname":"rothbard","pid":20238,"level":30,"msg":"Server listening @5000","time":"2019-09-12T23:23:07.325Z","v":0}
+{"name":"database","hostname":"rothbard","pid":20238,"level":30,"msg":"started with engine: mongo","time":"2019-09-12T23:23:07.315Z","v":0}
+{"name":"mongo engine","hostname":"rothbard","pid":20238,"level":30,"msg":"Mongo Engine Started","time":"2019-09-12T23:23:07.317Z","v":0}
+{"name":"server","hostname":"rothbard","pid":20856,"level":30,"msg":"Server listening @5000","time":"2019-09-12T23:24:08.171Z","v":0}
+{"name":"database","hostname":"rothbard","pid":20856,"level":30,"msg":"started with engine: mongo","time":"2019-09-12T23:24:08.160Z","v":0}
+{"name":"mongo engine","hostname":"rothbard","pid":20856,"level":30,"msg":"Mongo Engine Started","time":"2019-09-12T23:24:08.164Z","v":0}
