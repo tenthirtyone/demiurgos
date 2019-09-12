@@ -15,3 +15,20 @@
 .nk-footer-logos {
   text-align: center;
 }
+
+.justified {
+  text-align: justify;
+  text-align-last: center;
+}
+
+.margin-2 {
+  margin-top: 2em;
+}
+
+input:focus,
+input {
+  outline: none;
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+}
