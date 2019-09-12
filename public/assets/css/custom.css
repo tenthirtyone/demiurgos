@@ -1,5 +1,9 @@
 /* PLACE YOU CUSTOM STYLES IN THIS FILE */
 
+.thank-you {
+  display: none;
+}
+
 .dimmed {
   opacity: 0.4;
 }

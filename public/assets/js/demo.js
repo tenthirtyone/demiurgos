@@ -35,6 +35,15 @@ $(".btn-sign-up").click(function() {
       data: { email },
       success: res => {
         console.log(res);
+        $(".form-signup").hide();
+        $(".btn-sign-up").hide();
+        $(".thank-you").show();
+      },
+      error: err => {
+        console.log(err);
+        $(".form-signup").hide();
+        $(".btn-sign-up").hide();
+        $(".thank-you").show();
       },
       dataType: "json"
     });
