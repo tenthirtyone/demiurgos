@@ -1,0 +1,17 @@
+/* PLACE YOU CUSTOM STYLES IN THIS FILE */
+
+.dimmed {
+  opacity: 0.4;
+}
+
+.nk-cookie-alert {
+  visibility: hidden;
+}
+
+.nk-drop-item {
+  cursor: pointer;
+}
+
+.nk-footer-logos {
+  text-align: center;
+}
