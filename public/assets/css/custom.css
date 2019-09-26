@@ -36,3 +36,32 @@ input {
   box-shadow: none;
   border-color: transparent;
 }
+
+.game-card-row {
+  height: 28em;
+}
+.game-cards {
+  display: inline-block;
+  max-width: 20em
+}
+
+.game-cards img {
+  width: 60%;
+  margin: 1em;
+  -webkit-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.57);
+  box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.57);
+  cursor: pointer;
+  opacity: .75;
+  transition: all .6s;
+  
+}
+
+.game-cards img:hover {
+  opacity: 1;
+  width: 65%;
+  -webkit-box-shadow: 0px 0px 18px 1px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 18px 1px rgba(0,0,0,1);
+  box-shadow: 0px 0px 18px 1px rgba(0,0,0,1);
+  transition: all .6s;
+}
